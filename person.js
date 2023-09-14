@@ -15,6 +15,6 @@ class Person {
 const franny = new Person(123);
 const zooey = new Person(456);
 console.log(franny.getID);
-console.log(zooey.getID);//console.log displays 0 for each
+console.log(zooey.getID);//generates a random integer value for each console.log, but fails test "Person Class › ID should be different for different Person instances"
 
 module.exports = Person;
